@@ -60,7 +60,7 @@ function Board() {
         }
       });
     };
-
+    
     checkWin();
   }, [blockContent]); // blockContent güncellendiğinde checkWin çalışır
 
