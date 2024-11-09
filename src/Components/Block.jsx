@@ -3,8 +3,9 @@ import './Board.css'
 function Block({content,id,checkContent}) {
 
   const changeContent=()=>{
+    // checkWin()
     checkContent(id)
-    console.log(id);
+    // console.log(id);
     
   }  
 
